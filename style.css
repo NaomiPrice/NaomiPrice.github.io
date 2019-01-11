@@ -1,0 +1,40 @@
+
+h1{
+    color:#234982;
+    font-family:Impact, Charcoal, sans-serif;
+    font-weight:bold;
+    font-size:60px;
+    letter-spacing:3px;
+    margin:0;
+}
+p{
+    color: #515356;
+    font-family:Helvetica;
+}
+
+ul{
+    color:#515356;
+    font-family:Helvetica;
+}
+
+h3{
+    color:#234982;
+    font-family:Helvetica;
+    font-size:24px;
+    font-weight:bold;
+}
+
+h4{
+    color:#234982;
+    font-family:Helvetica;
+    font-size:16px;
+    
+}
+.container{
+    background-color:#f7f4ef;
+    padding:100px;
+    margin:30px auto;
+    width:500px;
+    max-width:75vw;
+
+}
