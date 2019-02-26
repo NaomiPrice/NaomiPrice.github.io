@@ -5,26 +5,28 @@ h1{
     font-weight:bold;
     font-size:60px;
     letter-spacing:3px;
-    margin:0;
+    margin: 0;
 }
 p{
     color: #515356;
     font-family:Helvetica;
+    font-size: 14px;
 }
 
 ul{
     color:#515356;
     font-family:Helvetica;
+    font-size: 14px;
 }
 
-h3{
+h2{
     color:#234982;
     font-family:Helvetica;
     font-size:24px;
     font-weight:bold;
 }
 
-h4{
+h3{
     color:#234982;
     font-family:Helvetica;
     font-size:16px;
@@ -32,9 +34,39 @@ h4{
 }
 .container{
     background-color:#f7f4ef;
-    padding:100px;
+    padding:80px;
     margin:30px auto;
-    width:500px;
+    width:750px;
     max-width:75vw;
 
 }
+
+.date{
+    text-align: right; 
+}
+
+a{
+  color: #234982;
+}
+
+a:hover{
+    color: #a4a6a8;
+}
+
+.ex1{
+    display: grid;
+    grid-template-areas:
+    "title title date"
+    "emp emp emp"
+    "job job job";
+}
+
+.title1 { 
+    grid-area: title;
+}
+.date1 { 
+    grid-area: date;
+    justify-self: end;
+}
+.emp1 { grid-area: emp;}
+.jd1 { grid-area: job;}
