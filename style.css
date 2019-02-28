@@ -59,14 +59,28 @@ a:hover{
     "title title date"
     "emp emp emp"
     "job job job";
+
 }
 
 .title1 { 
     grid-area: title;
+    margin: 3px;
 }
 .date1 { 
     grid-area: date;
     justify-self: end;
+    margin: 3px;
 }
-.emp1 { grid-area: emp;}
-.jd1 { grid-area: job;}
+.emp1 { 
+    grid-area: emp;
+    align-self: start;
+    margin: 3px;
+}
+.jd1 { 
+    grid-area: job;
+    margin: 3px;
+}
+
+hr{
+    margin: 15px;
+}
